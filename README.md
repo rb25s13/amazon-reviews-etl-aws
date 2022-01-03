@@ -6,6 +6,22 @@
 	\_/ \_/ \__/\__/ <_____/ 
 
 
+__________________
+
+
+<details>
+<summary> Tools, Languages, & Libraries Utilized</summary>
+<li>Python</li>
+<li>Apache Spark</li>
+<li>PySpark</li>
+<li>PostgreSQL</li>
+<li>Google Colab</li>
+<li>Jupyter Notebook</li>
+</details>
+
+__________________
+
+
 Create DataFrames to match production-ready tables from two big Amazon customer review datasets.
 Analyze whether reviews from Amazon's Vine program are trustworthy.
 
@@ -22,7 +38,7 @@ Analyze whether reviews from Amazon's Vine program are trustworthy.
 <ul>
 <li><p>Count the number of records (rows) in the dataset.</p>
 </li>
-<li><p><strong>Transform</strong> the dataset to fit the tables in the <a href="../Resources/schema.sql">schema file</a>. Be sure the DataFrames match in data type and in column name.</p>
+<li><p><strong>Transform</strong> the dataset to fit the tables in the <a href="./resources/schema.sql">schema file</a>. Be sure the DataFrames match in data type and in column name.</p>
 </li>
 <li><p><strong>Load</strong> the DataFrames that correspond to tables into an RDS instance. <strong>Note:</strong> This process can take up to 10 minutes for each. Be sure that everything is correct before uploading.</p>
 </li>
